@@ -1,0 +1,281 @@
+ *{
+    margin: 0;
+    padding: 0;
+	
+} 
+.header{
+	
+	width: 100%;
+	height: 60px;
+	position: sticky;
+	z-index: 999;
+	top: 0;
+	margin-bottom: 30px;
+	backdrop-filter: blur(10px);
+} 
+ .logo{
+	width: 220px;
+	height: 100%;
+	position: absolute;
+	left: 10%;   /* 左边距 */
+	justify-content: space-evenly;  /* 均匀排列每个元素之间的间隔相等 */
+	display: flex;
+	align-items: center;
+} 
+.logo img{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+.header.logo span{
+	font: 120 22px 'font';
+	
+}
+.header .logo span a{
+	text-decoration:none;
+}
+.header ul{
+	width: 450px;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	position: absolute;
+	right: 10%;
+}
+.header ul .header-box{
+	position: absolute;
+	bottom: 1px;
+	left: 0;
+	width: 70px;
+	height: 5px;
+	border-radius: 2px;
+	z-index: -999;
+	 transition: .5s; 
+}
+.header ul li{
+	list-style:none;
+	width: 150px;
+	text-align: center;
+}
+.header ul li a{
+	color: #000;
+	display: block;
+	width: 100%;
+	height: 100%;
+	/* line-height: 60px; */
+	text-align: center;
+	text-decoration:none;
+}
+ body .header span :nth-child(1):hover~.header-box {
+  left: 10px;
+  background-color: black;
+} 
+body .header ul li:nth-child(1):hover~.header-box {
+  left: 20px;
+  background-color: red;
+}
+
+body .header ul li:nth-child(2):hover~.header-box {
+  left: 140px;
+  background-color: #8da1f8;
+}
+
+body .header ul li:nth-child(3):hover~.header-box {
+  left: 250px;
+  background-color: #ffb1b1;
+}
+
+body .header ul li:nth-child(4):hover~.header-box{
+  left: 360px;
+  background-color: #7df88e;
+}
+
+
+video.bg-video.bg-video-day {
+    opacity: 1;
+}
+
+video.bg-video {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+ .swiper {
+   width: 1080px;
+   height: 608px;
+} 
+ span{
+	text-align: center;s
+} 
+
+ .swiper img{
+	width: 1080px;
+	height: 608px;
+}
+ 
+
+/* .left{
+	width: 20%; height:100%;
+	 float: left; 
+	 background:#BBFFFB; 
+	
+	}
+.swiper{
+	
+		width: 60%; 
+		height:100%; 
+		float: left; 
+		/* background:#BBFFFB; */
+	}
+}
+
+/* .right{ */
+		/* width: 20%; height:100%;
+		float: right; 
+		 background:#BBFFFB; 
+		} */ */
+		
+ img{
+	width: 1080px;
+	height: 308px;
+}	 
+		
+		
+ #footer {
+	 width: 100%;
+		height: 70px;
+		/* line-height: 70px; */
+	/* 	text-align: center; */
+		    /* background-color: #6ec4e6; */
+			
+		background-color: #FFADF7;
+		/* background: linear-gradient(220.55deg, #FFADF7 0%, #ccedc1 100%); */
+	}
+	
+ #name {
+	width: 400px;
+	height: 60px;
+	 
+	margin-top: 100px;
+	justify-content: space-between;
+	margin-bottom: 10vh;
+	/* backdrop-filter: blur(10px); */
+}
+#name ul{
+	list-style: none;
+	width: 500px;
+	height: 60px;
+	margin-left: 35VW;
+	border-radius: 10px;
+	/* background-color: blue; */
+	backdrop-filter: blur(10px); 
+	
+
+} 
+ #name ul li {
+    float: left;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #FFF;
+	justify-content: space-between;
+	backdrop-filter: blur(10px);
+} 
+
+
+
+.vide {
+	
+	text-align: center;
+	margin-bottom: 10vh;
+}
+
+
+.foot{
+	  width: 100%;
+	  height: 100px;
+	 margin-top: 10vh;
+	 bottom: 0;
+}
+.fo{
+	backdrop-filter: blur(10px); 
+	/* background-color: aquamarine; */
+	  
+	color: white;
+	text-align: center;
+}
+.fo a{
+	color: #000;
+	text-decoration:none;
+}
+
+.fo h1{
+	/* line-height: 40px; */
+}
+	
+	
+
+
+#gee{
+	
+	width: 100%;
+	height: auto;
+	float: left;
+	 margin-left: 30vw; 
+	justify-items: auto;
+	margin-top: 20vh;
+}
+#gee img{
+	
+	width: 200px;
+	height: 200px;
+	justify-content: space-between;
+	margin-bottom: 5vh;
+	overflow: hidden;
+}
+
+.geit{
+	margin-left: 10vh;
+	width: 900px;
+	height: auto;
+	margin-left: 25vw;
+	justify-content: space-between;
+	margin-top: 10vh;
+}
+.geit span{
+	
+	margin-top: 10vh;
+	
+}
+
+audio {
+    width: 220px;
+    height: 54px;
+	margin-top: 5vh;
+	justify-content: space-between;
+} 
+
+.aud {
+	
+	width: 100%;
+	
+}
